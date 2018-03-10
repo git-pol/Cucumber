@@ -18,7 +18,7 @@ public class TestBase {
 	public static Properties prop;   // can be used inside initialization method since global. Public since it can be used in child classes.
 		
 	
-	public TestBase() {  //Constructor
+	public TestBase() {  // This is Constructor
 		
 		try {
 			prop = new Properties();
