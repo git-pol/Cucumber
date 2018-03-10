@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="21.152584">
+<testcase classname="BIE Login Feature" name="Launch Browser and create an Umbrella policy" time="21.152584">
+<system-out><![CDATA[Given User launches Browser and opens BIE login Page........................passed
+Then logs in entering "Neil899" and "test11"................................passed
+Then selects Create Quote...................................................passed
+Then selects Umbrella and inputs "05-01-2018"...............................passed
+Then enters Insured details along with "CA".................................passed
+Then enters Business information............................................passed
+Then inputs Underlying policy information...................................passed
+Then submits the quote for pricing..........................................passed
+Then closes the Browser.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

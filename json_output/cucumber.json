@@ -1,0 +1,162 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 42,
+        "name": "Launch Browser and create an Umbrella policy",
+        "description": "",
+        "id": "bie-login-feature;launch-browser-and-create-an-umbrella-policy;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5344097363,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User launches Browser and opens BIE login Page",
+            "match": {
+              "location": "BieUmbrellaStepDefinition.user_launches_Browser_and_opens_BIE_login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7573528995,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "logs in entering \"Neil899\" and \"test11\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Neil899",
+                  "offset": 18
+                },
+                {
+                  "val": "test11",
+                  "offset": 32
+                }
+              ],
+              "location": "BieUmbrellaStepDefinition.logs_in_entering_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 435349111,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "selects Create Quote",
+            "match": {
+              "location": "BieUmbrellaStepDefinition.selects_Create_Quote()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6904972438,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "selects Umbrella and inputs \"05-01-2018\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "05-01-2018",
+                  "offset": 29
+                }
+              ],
+              "location": "BieUmbrellaStepDefinition.selects_Umbrella_and_inputs_effectiveDate(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 894457885,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "enters Insured details along with \"CA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CA",
+                  "offset": 35
+                }
+              ],
+              "location": "BieUmbrellaStepDefinition.enters_Insured_details_along_with_state(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36538,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "enters Business information",
+            "match": {
+              "location": "BieUmbrellaStepDefinition.enters_Business_information()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32022,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "inputs Underlying policy information",
+            "match": {
+              "location": "BieUmbrellaStepDefinition.inputs_Underlying_policy_information()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 74309,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "submits the quote for pricing",
+            "match": {
+              "location": "BieUmbrellaStepDefinition.submits_the_quote_for_pricing()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35718,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "closes the Browser",
+            "match": {
+              "location": "BieUmbrellaStepDefinition.closes_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "BIE Login Feature",
+    "description": "",
+    "id": "bie-login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Dev/Eclipse/BddBieAutomation/src/main/java/com/bie/qa/features/umbrella.feature"
+  }
+]
