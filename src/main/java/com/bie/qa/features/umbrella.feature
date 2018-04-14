@@ -29,14 +29,14 @@ Feature: BIE Login Feature
 Scenario Outline: Launch Browser and create an Umbrella policy
 
 Given User launches Browser and opens BIE login Page
-Then logs in entering "<username>" and "<password>"
+Then logs in entering "<state>" Agent credentials
 Then selects Create Quote
 Then selects Umbrella and inputs "<effective date>"
-Then enters Insured details along with "<state>"
+Then enters Insured details
 Then enters Business information
 Then inputs Underlying policy information
 Then submits the quote for pricing
 Then closes the Browser
 Examples:
-	|	username	|	password	|	effective date	|	state	|
-	|	Neil899		|	test11		|	05-01-2018		|	CA		|
+|	state	|	effective date	|
+|	AZ		|	06-01-2018		|
