@@ -237,32 +237,18 @@ formatter.match({
   "location": "BieUmbrellaStepDefinition.user_launches_Browser_and_opens_BIE_login_Page()"
 });
 formatter.result({
-  "duration": 5344097363,
+  "duration": 5705194614,
   "status": "passed"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "Neil899",
-      "offset": 18
-    },
-    {
-      "val": "test11",
-      "offset": 32
-    }
-  ],
-  "location": "BieUmbrellaStepDefinition.logs_in_entering_username_and_password(String,String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 7573528995,
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.match({
   "location": "BieUmbrellaStepDefinition.selects_Create_Quote()"
 });
 formatter.result({
-  "duration": 435349111,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -274,8 +260,7 @@ formatter.match({
   "location": "BieUmbrellaStepDefinition.selects_Umbrella_and_inputs_effectiveDate(String)"
 });
 formatter.result({
-  "duration": 6904972438,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -287,35 +272,30 @@ formatter.match({
   "location": "BieUmbrellaStepDefinition.enters_Insured_details_along_with_state(String)"
 });
 formatter.result({
-  "duration": 894457885,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "BieUmbrellaStepDefinition.enters_Business_information()"
 });
 formatter.result({
-  "duration": 36538,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "BieUmbrellaStepDefinition.inputs_Underlying_policy_information()"
 });
 formatter.result({
-  "duration": 32022,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "BieUmbrellaStepDefinition.submits_the_quote_for_pricing()"
 });
 formatter.result({
-  "duration": 74309,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "BieUmbrellaStepDefinition.closes_the_Browser()"
 });
 formatter.result({
-  "duration": 35718,
-  "status": "passed"
+  "status": "skipped"
 });
 });

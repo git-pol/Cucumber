@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5344097363,
+              "duration": 5705194614,
               "status": "passed"
             },
             "line": 31,
@@ -24,24 +24,11 @@
           },
           {
             "result": {
-              "duration": 7573528995,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 32,
             "name": "logs in entering \"Neil899\" and \"test11\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Neil899",
-                  "offset": 18
-                },
-                {
-                  "val": "test11",
-                  "offset": 32
-                }
-              ],
-              "location": "BieUmbrellaStepDefinition.logs_in_entering_username_and_password(String,String)"
-            },
+            "match": {},
             "matchedColumns": [
               0,
               1
@@ -50,8 +37,7 @@
           },
           {
             "result": {
-              "duration": 435349111,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 33,
             "name": "selects Create Quote",
@@ -62,8 +48,7 @@
           },
           {
             "result": {
-              "duration": 6904972438,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 34,
             "name": "selects Umbrella and inputs \"05-01-2018\"",
@@ -83,8 +68,7 @@
           },
           {
             "result": {
-              "duration": 894457885,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 35,
             "name": "enters Insured details along with \"CA\"",
@@ -104,8 +88,7 @@
           },
           {
             "result": {
-              "duration": 36538,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 36,
             "name": "enters Business information",
@@ -116,8 +99,7 @@
           },
           {
             "result": {
-              "duration": 32022,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 37,
             "name": "inputs Underlying policy information",
@@ -128,8 +110,7 @@
           },
           {
             "result": {
-              "duration": 74309,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 38,
             "name": "submits the quote for pricing",
@@ -140,8 +121,7 @@
           },
           {
             "result": {
-              "duration": 35718,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 39,
             "name": "closes the Browser",

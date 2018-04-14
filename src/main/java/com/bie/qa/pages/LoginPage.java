@@ -40,6 +40,10 @@ public class LoginPage extends TestBase{
 	}
 	
 	public ServiceMyCustomerPage login(String un, String pwd) {
+		
+		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
+		
 		username.sendKeys(un);  // Local variable
 		password.sendKeys(pwd);
 		

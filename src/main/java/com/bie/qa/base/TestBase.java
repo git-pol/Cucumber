@@ -41,7 +41,7 @@ public class TestBase {
 	}
 		
 		else if(browserName.equals("FF")){
-			System.setProperty("webdriver.gecko.driver", "D:\\Azeez\\Dev\\Drivers\\geckodriver");	
+			System.setProperty("webdriver.gecko.driver", "D:\\Azeez\\Dev\\Drivers\\geckodriver.exe");	
 			driver = new FirefoxDriver(); 
 		}
 		
